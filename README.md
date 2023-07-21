@@ -7,6 +7,6 @@
 - JQuery
 - SweetAlert2
 - OwlCarousel 
-- Есть адаптив до 320px
+- Есть адаптив до 330px
 - Использовал Boxicons и Favicon для иконок
 - Работа с LocalStorage
