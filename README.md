@@ -9,3 +9,4 @@
 - OwlCarousel 
 - Есть адаптив до 320px
 - Использовал Boxicons и Favicon для иконок
+- Работа с LocalStorage
