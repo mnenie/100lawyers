@@ -1,0 +1,873 @@
+@media screen and (max-width: 1302px){
+  .img__arrow_right, .img__arrow_left{
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px){
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .grid__specialty{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid__block__specialty{
+    width: 100%;
+  }
+  .card__lawyers{
+    width: 400px;
+  }
+  #lawyers__btn{
+    width: 400px;
+  }
+  .input__lawyers {
+    height: 664px;
+  }
+  .btns__lawyers{
+    flex-wrap: wrap;
+  }
+  .send__lawyers{
+    margin-top: 20px;
+  }
+  #input_lawyers_main{
+    height: 188px;
+    padding-bottom: 159px;
+  }
+  .h1__phone_group{
+    padding-top: 36px;
+  }
+  .grid__questions{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .modal_call_body{
+    margin-left: 280px;
+  }
+}
+@media screen and (max-width: 1138px){
+  .input__header__group{
+    max-width: 366px;
+  }
+  .input__header__group input, .btn__header__group p, .a__menu, .btn__entry p a, .btn__entry p, .menu__telegram p, .p__request__num, .h1-page__about, .h1-page__about2, .slash, .p__line, .btn__section__line button, .p-about__line, .p-help, .p__questions, .p__in_block__questions_1, .p__in_block__questions, .a__in_block__question, .grid__block_about__help p, .p__chose, .p__grid__chose, .btns__chose2 input, .input_chose2 label, .btns__chose2 button, .input__block__phone input, .input__block__phone label, .btns__form_phone button, .p__seo, #seo_btn, .p__reviews, .p__reviews__green_question, .p__user, .p__card, .p__card_2, .card__lawyers img, #input_lawyers_main, .input__1__lawyers label, #input_lawyers_main::placeholder, .input__1__lawyers input, .input__lawyers__2 input, .input__lawyers__2 label, .send__lawyers, .p__in_block_lawyers, .a__footer, .form_position_online h1, #block_seo_p{
+    font-size: 14px;
+  }
+  .input__header__group i, .btn__entry i,  .request__num i, .phone__section__line a, .h1__chose2__phone, .h1__in_block_footer{
+    font-size: 22px;
+  }
+  .logo-header{
+    width: 198px;
+  }
+  .btn__header__group img, .menu__telegram img, .block__about__line img, .grid__questions__block img{
+    width: 22px;
+    height: 22px;
+  }
+  .p__phone-header, .p__reviews__question{
+    font-size: 12px;
+  }
+  .a__phon_header, .p__number__questions, .h1__in_block_lawyers{
+    font-size: 18px;
+  }
+  .h1__line{
+    font-size: 36px;
+  }
+  .btn__section__line button{
+    width: 234px;
+  }
+  .phone__section__line p, .p__phone_group, .p__link__lawyers{
+    font-size: 10px;
+  }
+
+  .help{
+    margin-top: 70px;
+  }
+  .h1-help, .h1__questions, .h1_-about__help, .h1__chose, .h1__specialty, .h1__seo, .h1__reviews, .h1__lawyers, .h1__input__lawyers, .h1__footer{
+    font-size: 30px;
+  }
+  .h1__call{
+    font-size: 20px;
+  }
+  .h2__call, .h2__chose2__phone{
+    font-size: 38px;
+  }
+  .text__meet__call, .h1__input_form_chose2, .h1__user, .h1__card, .p__input__lawyers{
+    font-size: 16px;
+  }
+  .grid__block_about__help img{
+    width: 100px;
+    height: 100px;
+  }
+  .h1__grid__chose{
+    font-size: 26px;
+  }
+  .img__chose{
+    width: 540px;
+    height: 365px;
+  }
+  .btns__chose2 input, .input_chose2{
+    max-width: 219px;
+  }
+  .btns__chose2 button{
+    width: 200px;
+  }
+  .p__input_form_chose2{
+    font-size: 10px;  
+  }
+  .h1__phone_group{
+    font-size: 28px;
+  }
+  .card__lawyers img{
+    width: 60px;
+    height: 60px;
+  }
+  .line__section{
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1098px){
+  .input__block__phone input, .btns__form_phone button{
+    width: 168px;
+  }
+  .phone__section{
+    align-items: center;
+  }
+  .h1__phone_group, .form__phone{
+    padding-top: 0;
+  }
+  .form_position_online{
+    width: 98px;
+    padding: 0 10px;
+  }
+  .inputs__lawyers_modal{
+    flex-direction: column;
+  }
+  .input__1__lawyers_modal input, .input__1__lawyers_modal, .send__lawyers_modal, .input__lawyers__2_modal , .input__lawyers__2_modal input{
+    width: 100%;
+    /* max-width: 100%; */
+  }
+  .img_ellipse_modal{
+    bottom: -40px;
+  }
+  .h1__modal_call{
+    font-size: 30px;
+  }
+  .modal__meet p, .input__1__lawyers_modal input, .send__lawyers_modal, .input__lawyers__2_modal input,.input__1__lawyers_modal label, .input__lawyers__2_modal label {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1040px){
+  .input__header__group{
+    max-width: 274px;
+  }
+  .btns__menu_1040{
+    display: flex;
+    margin-top: 20px;
+  }
+  .btns__menu{
+    display: none;
+  }
+  .li__menu{
+    margin-right: 50px;
+  }
+  .p__grid__chose{
+    font-size: 12px;
+  }
+  .h1__phone_group{
+    font-size: 24px;
+  }
+  .about__line{
+    gap: 10px;
+  }
+  .line__section{
+    align-items: center;
+  }
+  .card__lawyers{
+    width: 350px;
+  }
+  #lawyers__btn{
+    width: 350px; 
+  }
+  .form_position_online h1{
+    display: none;
+  }
+  .form_position_online{
+    width: 34px;
+  }
+  .input__lawyers{
+    height: 650px;
+  }
+}
+@media screen and (max-width: 998px){
+  .meet__call{
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+  }
+  .im__ellipse__call{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .text__call{
+    padding: 30px;
+    margin: 0;
+    display: block;
+    margin: 0 auto;
+  }
+  .img__woman__call{
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+  }
+  .call__section{
+    min-height: 291px;
+  }
+  .h1__call, .h2__call{
+    text-align: center;
+  }
+  .h1__call{
+    font-size: 18px;
+  }
+  .h2__call{
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 976px){
+  .chose_1{
+    flex-direction: column;
+  }
+  .h1__chose, .p__chose{
+    text-align: center;
+    max-width: unset;
+  }
+  .grid__text__chose{
+    justify-items: center;
+  }
+  .grid_block__chose_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .img__chose{
+    display: block;
+    margin: 0 auto;
+  }
+  .text__chose{
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 948px){
+  .about__line{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .h1__line{
+    font-size: 32px;
+  }
+  .input__header__group{
+    width: 228px;
+  }
+  .btn__header__group{
+    padding: 0 10px;
+  }
+  .btns__form_phone{
+    flex-direction: column;
+  }
+  .input__lawyers{
+    height: unset;
+  }
+}
+@media screen and (max-width: 948px){
+  .lawyers__group{
+    flex-direction: column;
+  }
+  .group__lawyers1{
+    max-width: unset;
+    margin-bottom: 40px;
+  }
+  .card__lawyers{
+    width: 100%;
+  }
+  #lawyers__btn{
+    width: 100%;
+  }
+  .send__lawyers{
+    margin-top: 0;
+  }
+  .input__lawyers{
+    /* height: 602px; */
+    margin: 0 auto;
+    max-width: unset;
+    width: 100%;
+  }
+  #input_lawyers_main{
+    max-width: unset;
+  }
+  .form_position_online h1{
+    display: flex;
+  }
+  .form_position_online{
+    width: 98px;
+  }
+  .li__menu{
+    margin-right: 30px;
+  }
+  .btns__lawyers{
+    justify-content: unset;
+    gap: 15px;
+  }
+  .img__phone_block{
+    margin-left: 0;
+  }
+  .phone__section{
+    align-items: flex-start;
+  }
+  .h1__phone_group{
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .img__phone_block{
+    position: absolute;
+    /* top: 50%; */
+    right: 0;
+  }
+  .phone__section{
+    position: relative;
+    min-height: 200px;
+  }
+  .phone__section{
+    flex-direction: column;
+  }
+  .h1__phone_group{
+    margin-right: 0;
+  }
+  .btns__form_phone{
+    flex-direction: unset;
+  }
+  .modal_call_body{
+    margin-left: 247px;
+  }
+}
+@media screen and (max-width: 926px){
+  .modal__meet, .img_ellipse_modal, .img_woman_modal_call{
+    display: none;
+  }
+  .modal_call_body{
+    margin-left: 0;
+  }
+  .modal__meet_mobile, .img_ellipse_modal_mobile, .img_woman_modal_call_mobile{
+    display: flex;
+    position: absolute;
+  }
+  .img_woman_modal_call_mobile{
+    width: 308.707px;
+    height: 212.909px;
+    bottom: -14px;
+    z-index: 2;
+    left: -55px;
+  }
+  .img_ellipse_modal_mobile{
+    bottom: -14px;
+    z-index: 1;
+    left: -15px;
+  }
+  .modal__call{
+    min-height: 547px;
+    /* overflow: hidden; */
+  }
+  .modal__meet_mobile{
+    right: 44px;
+    bottom:67px;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .modal__meet_mobile p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--font-color);
+  }
+}
+@media screen and (max-width: 888px){
+
+  .line__section{
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .line__section_1{
+    margin-top: 0;
+  }
+  .h1__line, .p__line{
+    text-align: center;
+  }
+  .btn__section__line{
+    justify-content: center;
+  }
+  .about__line{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .header__section{
+    justify-content: center;
+  }
+  .btn__header__group, .phone__header__group, .input__header__group{
+    display: none;
+  }
+  .btn__header__group_1, .phone__header__group_1, .input__header__group_1{
+    display: flex;
+  }
+  .menu{
+    margin-top: 20px;
+  }
+  .header__section{
+    margin-bottom: 20px;
+  }
+  .chose_2{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .chose_2__phone{
+    margin-bottom: 15px;
+  }
+  .h1__input_form_chose2{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 799px){
+  .modal__meet_mobile img{
+    width: 200px;
+    height: 50px;
+  }
+  .modal__meet_mobile{
+    right: 25px;
+  }
+}
+@media screen and (max-width: 796px){
+  .btn__header__group_1 p{
+    font-size: 14px;
+  }
+  .btn__header__group_1 img{
+    width: 22px;
+    height: 22px;
+  }
+  .btn__header__group_1{
+    width: 176px;
+  }
+  .input__header__group_1 input{
+    font-size: 14px;
+  }
+  .input__header__group_1 i{
+    font-size: 22px;
+  }
+  .input__header__group_1{
+  max-width: 258px;
+  }
+  .grid__about__help{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 726px){
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  header{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+  .mobile__header{
+    display: flex;
+  }
+  .page__about{
+    margin-top: 20px;
+  }
+  .img__phone_block{
+    position: relative;
+    margin: 0 auto;
+  }
+  .h1__phone_group{
+    text-align: center;
+  }
+  .phone__section{
+    justify-content: center;
+    align-items: unset;
+  }
+  .btns__form_phone{
+    margin: 0 auto;
+  }
+  .p__phone_group{
+    text-align: center;
+    width: unset;
+  }
+  .phone__section{
+    padding: 20px 20px 0 20px;
+  }
+  .text__meet__call{
+    position: relative;
+    z-index: 2;
+  }
+  .meet__call img{
+    position: relative;
+    z-index: 2;
+  }
+  .meet__call{
+    right: 20px;
+  }
+  .h1__phone_group{
+    margin-top: 0;
+  }
+  .page__about{
+    padding-top: 62px;
+  }
+}
+@media screen and (max-width: 686px){
+  .input__lawyers{
+    height: 662px;
+  }
+}
+@media screen and (max-width: 620px){
+  .h1-page__about2, .slash, .h1-page__about, .phone__section__line p, .p__input_form_chose2, .p__specialty, .p__phone_group, .p__card,.p__card_2{
+    font-size: 12px;
+  }
+  .line__section_2 img{
+    width: 235px;
+    height: 250px;
+  }
+  .h1__line{
+    font-size: 22px;
+  }
+  .phone__section__line a{
+    font-size: 24px;
+  }
+  .about__line{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .help, .questions, .about__help, .call, .chose, .specialty, .phone, .seo, .reviews ,.lawyers {
+    margin-top: 40px;
+  }
+  .h1-help, .h1__questions, .h1__chose, .h1__seo{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .p__questions{
+    margin-bottom: 20px;
+  }
+  .grid__questions__block img{
+    width: 24px;
+    height: 24px;
+  }
+  .h1_-about__help, .h1__specialty, .h1__reviews, .h1__lawyers{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .grid__block_about__help img{
+    width: 54px;
+    height: 54px;
+  }
+  .grid__block_about__help{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .h1__chose, .p__chose{
+    text-align: unset;
+  }
+  .p__chose{
+    margin-bottom: 25px;
+  }
+  .grid__text__chose{
+    gap: 30px;
+    justify-items: flex-start;
+  }
+  .h1__grid__chose{
+    font-size: 20px;
+  }
+  .grid_block__chose_text{
+    align-items: flex-start;
+  }
+  /* .img__chose{
+    width: 360px;
+    height: 247px;
+  } */
+  .chose_2{
+    align-items: flex-start;
+  }
+  .h1__chose2__phone{
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .h2__chose2__phone{
+    font-size: 36px;
+  }
+  .h1__input_form_chose2{
+    text-align: unset;
+    margin-bottom: 15px;
+  }
+  .btns__chose2{
+    margin-bottom: 15px;
+  }
+  .h1__grid_specialty{
+    font-size: 14px;
+  }
+  .p__seo{
+    margin-bottom: 15px;
+  }
+  #block_seo_p{
+    padding-top: 15px;
+  }
+  .lawyers__group{
+    margin-top: 0;
+  }
+  .h1__card, #lawyers__btn{
+    font-size: 14px;
+  }
+  .card__lawyers img{
+    width: 50px;
+    height: 50px;
+  }
+  .group__lawyers1, #block_btn__lawyers{
+    gap: 10px;
+  }
+  #block_btn__lawyers{
+    padding-top: 20px;
+  }
+  footer{
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  .h1__footer{
+    margin-bottom: 30px;
+  }
+  .h1__footer{
+    font-size: 20px;
+  }
+  .h1__in_block_footer{
+    font-size: 18px;
+  }
+  .grid__footer_1{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    row-gap: 20px;
+  }
+  .grid__footer_2{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    row-gap: 20px;
+  }
+  .grid__footer_3{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    row-gap: 20px;
+  }
+  .grid__footer_4{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    row-gap: 20px;
+  }
+  .h1__input__lawyers{
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  .p__input__lawyers{
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  /* .input__lawyers{
+    padding: 20px;
+  } */
+  .form_position_online h1, .p__link__lawyers, .p__in_block_lawyers{
+    font-size: 12px;
+  }
+  .form_position_online{
+    width: 92px;
+    padding: 0 12px;
+  }
+  .h1__in_block_lawyers{
+    font-size: 16px;
+  }
+  .input__lawyers{
+    min-height: unset;
+    height: unset;
+  }
+  /* .input__lawyers__2 label{
+    font-size: 12px;
+  } */
+  #input_lawyers_main::placeholder{
+    font-size: 14px;
+  }
+  .h1__modal_call{
+    font-size: 22px;
+  }
+  .p__modal_link{
+    font-size: 10px;
+  }
+  .modal__meet_mobile p{
+    font-size: 12px;
+  }
+  .modal__meet_mobile img{
+    width: 160px;
+    height: 40px;
+  }
+  .h1__registration__form, .h1__registrations__form{
+    font-size: 22px;
+  }
+  .input__form__registration1 input, .input__form__registration1 label, .input__form__registration2 input, .input__form__registration2 label, .form-check-label, .btn_1_registration, .btns__registration p, .registration__form button, .input__registration_form input, .input__registration_form label, .input__registration__form_block p{
+    font-size: 14px;
+  }
+  .p__registration_form{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 580px){
+  .img__chose{
+    width: 360px;
+    height: 247px;
+  }
+  .inputs__lawyers{
+    flex-direction: column;
+  }
+  .btns__lawyers{
+    flex-direction: column;
+  }
+  .inputs__lawyers, .input__1__lawyers input, .input__lawyers__2 input, .input__lawyers__2, .send__lawyers, .input__1__lawyers{
+    width: 100%;
+  }
+  .input__lawyers{
+    padding: 72px 20px 20px 20px;
+  }
+  .p__link__lawyers{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .form_position_online{
+    top: 20px;
+    left: 20px;
+  }
+}
+@media screen and (max-width: 510px){
+  .btn__section__line{
+    flex-direction: column;
+  }
+  .btns__chose2{
+    flex-direction: column;
+  }
+  .phone__section__line{
+    align-items: center;
+  }
+  .btn__section__line button{
+    width: 100%;
+  }
+  .btns__chose2 input, .input_chose2, .btns__chose2 button{
+    max-width: unset;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px){
+  .about__line{
+    justify-items: start;
+  }
+  .img__woman__call{
+    left: -30px;
+    bottom: -15px;
+  }
+  .im__ellipse__call{
+    left: -60px;
+    bottom: -15px;
+  }
+  .h1__call{
+    margin-bottom: 5px;
+  }
+  .text__meet__call{
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .meet__call img{
+    width: 184px;
+    height: 40px;
+  }
+  .meet__call{
+    padding: 0;
+    bottom: 76px;
+    right: 30px;
+  }
+  .a__in_block__question{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  .grid__questions__block{
+    min-height: 191px;
+  }
+  .p__number__questions{
+    margin-bottom: 35px;  
+  }
+  .btns__form_phone{
+    flex-direction: column;
+    margin: unset;
+  }
+  .input__block__phone input, .btns__form_phone button{
+    width: 100%;
+  }
+  .p__phone_group{
+    text-align: left;
+  }
+  .img__phone_block{
+    margin: unset;
+  }
+  .grid__text__chose{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 30px;
+  }
+  .grid_block__chose_text{
+    margin-bottom: 0;
+    height: 53px;
+  }
+}
+@media screen and (max-width: 460px){
+  .modal__meet_mobile{
+    right: 0;
+  }
+}
+@media screen and (max-width: 418px){
+  .p__number__questions{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 394px){
+  .img__chose{
+    width: 100%;
+    height: 100%;
+  }
+  .p__grid__chose{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 386px){
+  .img__logo__mobile, .img__menu__mobile{
+    margin-right: 0;
+  }
+  .a__in_block__question{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 374px){
+  .text__meet__call{
+    font-size: 12px;
+    text-align:center;
+  }
+  .meet__call{
+    right: 10px;
+  }
+  .p__number__questions{
+    font-size: 14px;
+  }
+}
